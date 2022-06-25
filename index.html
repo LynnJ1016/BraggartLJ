@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+        /* 设置背景图片 */
+        body{
+            background-image: url("images/图片1.png");
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!--页眉区header，包括banner和nav两个div，均为固定布局-->
+    <header>
+        <!--banner区，包括h2，h2中有文字和logo，用span分开-->
+        <div id="banner" class="sticky" style="background-color:#d5fe40">
+            <h2><img width="40px" src="./images/logo.JPG" alt="">
+                <span>Welcome to My World!
+            </span>
+            </h2>   
+        </div>
+        <!--End of banner-->
+        <div id="nav" class="stickynav">
+            <!--导航区内部由无序列表ul实现，有五个链接，横向排列-->
+            <ul>
+                <li class="nav">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav">
+                    <a href="resume.html">My Resume</a>
+                </li>
+                <li class="nav">
+                    <a href="family.html">Family&Freinds</a>
+                </li>
+                <li class="nav">
+                    <a href="hobbies.html">My Hobbies</a>
+                </li>
+                <li class="nav">
+                    <a href="contact.html">Contact Me</a>
+                </li>               
+            </ul>
+        </div>
+        <!--End of nav-->
+    </header>
+    <!--End of header-->
+
+    <!--主体部分只有一个div（采用flex布局），内有一个h1-->
+    <main>
+        <!--div.box#bigbox-->
+        <div class="box" id="bigbox">
+            <h1>Long time no see,my friend!</h1>
+        </div>
+        <!--div.box#bigbox-->
+    </main>
+    <!--End of main-->
+
+    <!--页脚区footer-->    
+        <footer style="color:rgb(234, 233, 233); ">
+        <!-- 由于背景图片颜色，页脚区文字颜色更改 -->
+        &copy;2022, Lynn's World 
+        <br>
+        All trademarks and registered trademarks appearing on 
+        this site are the property of their respective owners.</span>
+    </footer>
+  
+
+</body>
+</html>

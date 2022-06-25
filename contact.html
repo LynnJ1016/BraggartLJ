@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="css/contact.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="fonts/sns_fonts/iconfont.css">
+    <style type="text/css">
+
+    </style>
+</head>
+
+
+<body>
+    <!--页眉区header，包括banner和nav两个部分，均为固定布局-->
+    <header>
+      <div id="banner" class="sticky" style="background-color:#d5fe40">
+          <h2><img width="40px" src="./images/logo.JPG" alt="">
+              <span>Welcome to My World!
+          </span>
+          </h2>   
+      </div>
+      <div id="nav" class="stickynav">
+          <!--导航区内部由无序列表ul实现，有五个链接，横向排列-->
+          <ul>
+              <li class="nav">
+                  <a href="index.html">Home</a>
+              </li>
+              <li class="nav">
+                  <a href="resume.html">My Resume</a>
+              </li>
+              <li class="nav">
+                  <a href="family.html">Family&Freinds</a>
+              </li>
+              <li class="nav">
+                  <a href="hobbies.html">My Hobbies</a>
+              </li>
+              <li class="nav">
+                  <a href="contact.html">Contact Me</a>
+              </li>               
+          </ul>
+      </div>
+
+  </header>
+
+    <main>
+        <div id="contact" class="text-center">
+            <div class="container">
+              <!-- 联系方式区 -->
+              <div style=" padding: 10px 0 0 0;">
+                <h2>联系方式</h2>
+                <hr>
+              </div>
+              <div class="con-box" style="height: 68px;">
+                <div class="box1"> <i class="fa fa-map-marker fa-2x"></i>
+                  <p>ZUEL</p>
+                </div>
+                <div class="box1"> <i class="fa fa-envelope-o fa-2x"></i>
+                  <p>Email</p>
+                </div>
+                <div class="box1"> <i class="fa fa-weixin fa-2x"></i>
+                  <p>Wechat</p>
+                </div>
+              </div>
+              <hr>
+              <!-- 联系方式区结束 -->
+              <!-- 留言区 -->
+              <div class="con-box" style="padding-top: 15px;">
+                <!-- 表单 -->
+                <form action="" method="post" name="sentMessage" id="contactForm">
+                    <div  class="form-group">
+                        <h1>Say Something to Me?</h1>
+                        <label>
+                                 <span>Sex :</span>
+                                 <select id="sex" name="sex">
+                                          <option value="boy">Boy</option>
+                                          <option value="girl">Girl</option>
+                                 </select>
+                        </label>
+                        <label>
+                                 <span>Name :</span>
+                                 <input id="port" type="text" name="port" placeholder="How should I call you?" />
+                        </label>
+                        <label>
+                                 <span>Phone Number :</span>
+                                 <input id="ip" type="text" name="port" placeholder="Your Phone Number" />
+                        </label>
+                        <label>
+                                 <span>Email :</span>
+                                 <input id="email" type="email" name="email" placeholder="Email Address" />
+                        </label>
+                        <label>
+                                 <span>Message :</span>
+                                 <textarea id="message" name="message" placeholder="Your Message to Me"></textarea>
+                        </label>
+       
+                        <label>
+                                 <span>&nbsp;</span>
+                                 <input type="button" class="button" value="Send" />
+                        </label>
+                     </div>
+                </form>
+                <!-- 表单结束 -->
+              </div>
+              <!-- 留言区结束 -->
+            </div>
+          </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer style=" background-color: rgb(249,236,195);">
+        &copy;2022, Lynn's World 
+        <br>
+        All trademarks and registered trademarks appearing on 
+        this site are the property of their respective owners.</span>
+    </footer>
+
+</body>
+</html>
