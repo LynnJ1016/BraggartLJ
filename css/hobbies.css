@@ -1,0 +1,127 @@
+h1{
+    margin: 10px auto;
+    font-size: 35px;
+    font-family:"Georgia";
+}
+h3{
+    font-size: 30px;
+    font-family: "楷体";
+    font-weight: bold;
+    color: #393733;
+    border-bottom: #64483d thin dotted;
+}
+
+p{
+    /* 首行缩进 */
+    font-family: "宋体";
+    text-indent: 2em;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main{
+    margin: 0;
+}
+
+ul#lbt{
+    height: 300px;
+    width: 880px;
+    position: relative;
+    margin: 50px auto;
+    padding: auto;
+    list-style: none;
+}
+
+/* 移入到轮播图区域把鼠标形状变成‘手’ */
+ul#lbt:hover {
+    cursor: pointer;
+}
+
+ul#lbt li {
+    position: absolute;
+    left: 0;
+    /* 过渡属性，让轮播图切换更自然 */
+    transition: 0.4s;
+}
+
+div.box#smallbox{
+    width: 85%;
+    left: 50%;
+    height: 2200px;
+    text-align: center;
+    background-color: rgba(229, 211,170 ,0.5);
+    margin-top: 0;
+
+}
+
+div#container{
+    display: table;
+    border-spacing: 20px;
+}
+
+div#cont1{
+    display: table-row;
+    width: 600px;
+    height: 600px;
+}
+
+div#cont1-1{
+    width:300px;
+    height: 600px;
+    display: table-cell;
+    background-color: rgba(247, 205, 188, 0.5);
+}
+div#cont1-2{
+    display: table-cell;
+    width:600px;
+    height: 700px;
+    background-color: rgba(247, 205, 188, 0.5);
+    
+}
+
+div#cont2{
+    display: table-row;
+    width: 600px;
+    height: 700px;
+}
+
+div#cont2-1{
+    width:600px;
+    height: 900px;
+    display: table-cell;
+    background-color: rgba(247, 205, 188, 0.5);
+}
+
+div#cont2-2{
+    width:600px;
+    height: 700px;
+    display: table-cell;
+    background-color: rgba(247, 205, 188, 0.5);
+}
+
+div#food{
+    width: 140px;
+    float: left;
+}
+div#food img{
+    margin: 5px;
+    width: 130px;
+}
+
+div#travel{
+    width: 140px;
+    float: right;
+}
+div#travel img{
+    margin: 8px ;
+    width: 130px;
+}
+div#idol{
+    margin-right:10px;
+    margin-left:10px;
+}
+div#idol img{
+    margin: 10px;
+    width: 230px;
+}
