@@ -1,0 +1,105 @@
+div.inner{
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table-row;
+}
+p{
+    /* 首行缩进 */
+    font-family: "宋体";
+    text-indent: 2em;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 40px;
+    font-family: "华文行楷";
+    color: #393733;
+    border-bottom: #64483d thin dotted;
+}
+
+img{
+    max-width: 95%;
+    max-height: 95%;
+    padding: auto;
+}
+
+div#container_1{
+    height: 276px;
+    display: table;
+    margin: auto;
+    background-color: #e8e0cd;
+    border-top: 4px solid #85754d;
+    border-bottom: 4px dotted #b09555;
+    border-spacing:10px;    
+}
+div#container_1 div.inner div#cont_1_0{
+    width: 344px;
+    height: 272px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+       
+}
+div#container_1 div.inner div#cont_1_1{
+    width: 656px;
+    height: 272px; 
+    padding: 8px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div#container_1 div.inner div#cont_1_2{
+    width: 344px;
+    height: 272px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+       
+}
+
+
+
+div#container_2{
+    height: 493px;
+    margin: 15px auto;
+    border-bottom: 6px solid #b09555;
+    border-top: 4px dotted #e3b4b8;
+    background-color:#f6dcce;
+    display: table;
+    border-spacing: 4px;
+}
+
+div#container_2 div.inner div#cont_2_1{
+    width: 345px;
+    height: 280px;
+    display: table-cell;
+    text-align: center;
+    text-align:center;
+    vertical-align: middle;
+}
+div#container_2 div.inner div#cont_2_2{
+    width: 345px;
+    height: 280px;
+    display: table-cell;
+    text-align: right;
+    vertical-align:middle;
+}
+div#container_2 div.inner div#cont_2_3{
+    width: 345px;
+    height: 280px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+div#container_2 div.inner div#cont_2_4{
+    width: 345px;
+    height: 280px;
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
